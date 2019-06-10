@@ -62,7 +62,7 @@ export const PathBezier = (data) => {
   return path
 }
 
-// 将温度数组转化为svg坐标。 offset 向下偏移量默认是6，避免线条被svg上边界遮盖
+// 将温度数组转化为svg坐标。 offset 向下偏移量默认是10，避免线条被svg上边界遮盖
 export const DataToCoordinate = (data, width, height, offset = 10) => {
   let max = Math.max(...data);
   let min = Math.min(...data);

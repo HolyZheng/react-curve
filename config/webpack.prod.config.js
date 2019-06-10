@@ -34,7 +34,5 @@ module.exports = {
         })
     ],
   },
-  externals: [nodeExternals({
-    whitelist: ['core-js/features/array/map']
-  })]
+  externals: [nodeExternals()]
 };

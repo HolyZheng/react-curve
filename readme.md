@@ -20,3 +20,6 @@ ReactCurve lineColor="#F99952" textPosition="bottom" data={[10,13,15,20,10,12]} 
 | width | number | 组件宽度 |
 | height | number | 组件高度 |
 | contentHeight | number | 内容高度即线条最高峰和最低分的高低差 |
+
+## result
+![react-curve-bottom](https://raw.githubusercontent.com/HolyZheng/react-curve/master/public/img/bottom.png)

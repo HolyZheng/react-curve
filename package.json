@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "build": "webpack --config ./config/webpack.prod.config.js",
-    "serve": "webpack-dev-server --config ./config/webpack.dev.config.js --open --hot"
+    "serve": "webpack-dev-server --config ./config/webpack.dev.config.js --open --hot",
+    "test": "webpack-dev-server --config ./config/webpack.test.config.js --open --hot"
   },
   "keywords": [],
   "author": "zhenghaoli",
